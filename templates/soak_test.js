@@ -16,6 +16,12 @@ export let options = {
     { duration: '5h56m', target: peak_load }, // stay @ N
     { duration: '2m', target: 0 }, // scale down
   ],
+<<<<<<< HEAD
+=======
+  thresholds: {
+    http_req_duration: [threshold],
+  }
+>>>>>>> aad14fb85191dbb592f3fdda1b487110d3ddd124
 }
 
 const api_url = '';
